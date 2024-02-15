@@ -1,0 +1,243 @@
+[Message:   BepInEx] BepInEx 5.4.22.0 - EscapeFromTarkov (12.02.2024 02:30:47)
+[Info   :   BepInEx] Running under Unity v0.13.9.2762
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 13 plugins to load
+[Info   :   BepInEx] Loading [Graphics 1.5.3]
+[Info   :   BepInEx] Loading [Configuration Manager 18.0.1]
+[Info   :   BepInEx] Loading [SIT.Core 1.9.0]
+[Info   :  SIT.Core] UseSITGarbageCollector:True
+[Info   :  SIT.Core] SITGCMemoryThreshold:8192
+[Info   :  SIT.Core] SITGCClearAssets:False
+[Info   :  SIT.Core] SITGCAggressiveClean:False
+[Info   :SIT.Tarkov.Core.PatchConstants] PatchConstants: 11888 EftTypes found
+[Info   :SIT.Tarkov.Core.PatchConstants] PatchConstants: 57 JsonConverters found
+[Info   :ModulePatch] Enabled patch VersionLabelPatch
+[Info   :  SIT.Core] EnableCorePatches
+[Info   :ModulePatch] Enabled patch ConsistencySinglePatch
+[Info   :ModulePatch] Enabled patch ConsistencyMultiPatch
+[Info   :ModulePatch] Enabled patch RunFilesCheckingPatch
+[Info   :ModulePatch] Enabled patch AntiCheatPatch
+[Info   :ModulePatch] Enabled patch BattlEyePatchFirstPassRun
+[Info   :ModulePatch] Enabled patch BattlEyePatchFirstPassUpdate
+[Info   :ModulePatch] Enabled patch SslCertificatePatch
+[Info   :ModulePatch] Enabled patch UnityWebRequestPatch
+[Info   :ModulePatch] Enabled patch SendCommandsPatch
+[Info   :ModulePatch] Enabled patch TransportPrefixPatch
+[Info   :ModulePatch] Enabled patch WebSocketPatch
+[Info   :ModulePatch] Enabled patch AssignHealthControllerToPlayerInRaid
+[Info   :ModulePatch] ChangeHealth:EFT.HealthSystem.ActiveHealthController
+[Info   :ModulePatch] ChangeHealth:ChangeHealth
+[Info   :ModulePatch] Enabled patch ChangeHealthPatch
+[Warning:  HarmonyX] ChangeHydrationPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.HealthSystem.ActiveHealthController::ChangeHydration(float value) instead of void EFT.HealthSystem.ActiveHealthController::ChangeHydration(float value).
+[Info   :ModulePatch] Enabled patch ChangeHydrationPatch
+[Warning:  HarmonyX] ChangeEnergyPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.HealthSystem.ActiveHealthController::ChangeEnergy(float value) instead of void EFT.HealthSystem.ActiveHealthController::ChangeEnergy(float value).
+[Info   :ModulePatch] Enabled patch ChangeEnergyPatch
+[Info   :ModulePatch] Enabled patch OnDeadPatch
+[Info   :ModulePatch] Enabled patch MainMenuControllerForHealthListenerPatch
+[Info   :ModulePatch] Enabled patch RemoveScavModeButtonPatch
+[Info   :ModulePatch] Enabled patch RemoveReadyButtonPatch
+[Info   :ModulePatch] Enabled patch OfflineSettingsScreenPatch
+[Info   :ModulePatch] OfflineDisplayProgressPatch:Method Name:method_47
+[Info   :ModulePatch] Enabled patch OfflineDisplayProgressPatch
+[Info   :ModulePatch] Enabled patch OfflineSaveProfile
+[Info   :ModulePatch] Enabled patch CoreDifficultyPatch
+[Info   :ModulePatch] Enabled patch BotDifficultyPatch
+[Info   :ModulePatch] Enabled patch BotSettingsRepoClassIsFollowerFixPatch
+[Info   :ModulePatch] Enabled patch BotSelfEnemyPatch
+[Info   :ModulePatch] Enabled patch PmcFirstAidPatch
+[Info   :ModulePatch] Enabled patch SpawnProcessNegativeValuePatch
+[Info   :ModulePatch] Enabled patch LocationLootCacheBustingPatch
+[Info   :ModulePatch] Enabled patch QTEPatch
+[Info   :SIT.Tarkov.Core.PatchConstants] [Bundle Manager] Bundles are same. Using cached Bundles
+[Info   :ModulePatch] Enabled patch EasyAssetsPatch
+[Info   :ModulePatch] Enabled patch EasyBundlePatch
+[Info   :      Coop] Stay in Tarkov - Enabling Coop Patches
+[Info   :ModulePatch] Enabled patch TarkovApplication_LocalGameCreator_Patch
+[Info   :ModulePatch] LocalGameStartingPatch:BaseLocalGame`1:method_4
+[Info   :ModulePatch] Enabled patch LocalGameStartingPatch
+[Info   :ModulePatch] Enabled patch NonWaveSpawnScenarioPatch
+[Info   :ModulePatch] Enabled patch WaveSpawnScenarioPatch
+[Info   :ModulePatch] Enabled patch LocalGame_Weather_Patch
+[Info   :ModulePatch] Enabled patch LoadLocationLootPatch
+[Info   :ModulePatch] Enabled patch EnvironmentUIRootPatch
+[Info   :ModulePatch] Enabled patch MatchmakerAcceptScreenAwakePatch
+[Info   :ModulePatch] Enabled patch MatchmakerAcceptScreenShowPatch
+[Info   :ModulePatch] Enabled patch AirdropFlarePatch
+[Info   :ModulePatch] Enabled patch Ammo_CachedReadOnlyAttributes_Patch
+[Info   :  SIT.Core] Stay in Tarkov is loaded!
+[Info   :   BepInEx] Loading [PaulovTraderScreenScrollbar 1.0.0.0]
+[Info   :ModulePatch] Enabled patch TraderScreensGroupPatch
+[Info   :   BepInEx] Loading [Recoil Standalone 1.0.0]
+[Info   :ModulePatch] Enabled patch RecoilLocalPlayerPatch
+[Info   :ModulePatch] Enabled patch RecoilCoopPlayerPatch
+[Info   :ModulePatch] Enabled patch RecoilOverhaulHideoutInitPatch
+[Info   :ModulePatch] Enabled patch UpdateWeaponVariablesPatch
+[Info   :ModulePatch] Enabled patch UpdateSwayFactorsPatch
+[Info   :ModulePatch] Enabled patch GetAimingPatch
+[Info   :ModulePatch] Enabled patch ProcessPatch
+[Info   :ModulePatch] Enabled patch ShootPatch
+[Info   :ModulePatch] Enabled patch SetCurveParametersPatch
+[Info   :ModulePatch] Enabled patch PlayerLateUpdatePatch
+[Info   :ModulePatch] Enabled patch RotatePatch
+[Info   :ModulePatch] Enabled patch ApplyComplexRotationPatch
+[Info   :ModulePatch] Enabled patch BreathProcessPatch
+[Info   :   BepInEx] Loading [AKI.Singleplayer 1.0.0.0]
+[Info   :AKI.Singleplayer] Loading: Aki.SinglePlayer
+[Info   :ModulePatch] Enabled patch ExperienceGainPatch
+[Info   :ModulePatch] Enabled patch InsuranceScreenPatch
+[Info   :ModulePatch] CreateProfile
+[Info   :GetNewBotTemplatesPatch] CreateProfile
+[Info   :ModulePatch] Enabled patch GetNewBotTemplatesPatch
+[Info   :ModulePatch] Enabled patch DogtagPatch
+[Info   :ModulePatch] Enabled patch PostRaidHealingPricePatch
+[Info   :ModulePatch] Enabled patch PostRaidHealScreenPatch
+[Info   :ModulePatch] Enabled patch LighthouseBridgePatch
+[Info   :ModulePatch] Enabled patch LighthouseTransmitterPatch
+[Info   :ModulePatch] Enabled patch LabsKeycardRemovalPatch
+[Info   :AKI.Singleplayer] Completed: Aki.SinglePlayer
+[Info   :   BepInEx] Loading [LootValue 1.2.2]
+[Info   :ModulePatch] Enabled patch LootValueTraderPatch
+[Info   :ModulePatch] Enabled patch LootValueShowTooltipPatch
+[Info   :ModulePatch] Enabled patch LootValueGridItemOnPointerEnterPatch
+[Info   :ModulePatch] Enabled patch LootValueGridItemOnPointerExitPatch
+[Warning:  HarmonyX] LootValueItemViewOnClickPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual void EFT.UI.DragAndDrop.ItemView::OnClick(UnityEngine.EventSystems.PointerEventData+InputButton button, UnityEngine.Vector2 position, bool doubleClick) instead of virtual void EFT.UI.DragAndDrop.ItemView::OnClick(UnityEngine.EventSystems.PointerEventData+InputButton button, UnityEngine.Vector2 position, bool doubleClick).
+[Info   :ModulePatch] Enabled patch LootValueItemViewOnClickPatch
+[Info   :   BepInEx] Loading [LootingBots 1.1.4]
+[Info   :ModulePatch] Enabled patch CleanCacheOnRaidEnd
+[Info   :ModulePatch] Enabled patch EnableWeaponSwitching
+[Info   :ModulePatch] Enabled patch RemoveComponent
+[Info   :   BepInEx] Loading [SAIN 2.1.8]
+[Info   :ModulePatch] Enabled patch UpdateEFTSettingsPatch
+[Info   :ModulePatch] Enabled patch KickPatch
+[Info   :ModulePatch] Enabled patch GetBotController
+[Info   :ModulePatch] Enabled patch GetBotSpawner
+[Info   :ModulePatch] Enabled patch GrenadeThrownActionPatch
+[Info   :ModulePatch] Enabled patch GrenadeExplosionActionPatch
+[Info   :ModulePatch] Enabled patch BotGroupAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotMemoryAddEnemyPatch
+[Info   :ModulePatch] Enabled patch TryPlayShootSoundPatch
+[Info   :ModulePatch] Enabled patch HearingSensorPatch
+[Info   :ModulePatch] Enabled patch BetterAudioPatch
+[Info   :ModulePatch] Enabled patch PlayerTalkPatch
+[Info   :ModulePatch] Enabled patch TalkDisablePatch1
+[Info   :ModulePatch] Enabled patch TalkDisablePatch2
+[Info   :ModulePatch] Enabled patch TalkDisablePatch3
+[Info   :ModulePatch] Enabled patch TalkDisablePatch4
+[Info   :ModulePatch] Enabled patch NoAIESPPatch
+[Info   :ModulePatch] Enabled patch VisionSpeedPatch
+[Info   :ModulePatch] Enabled patch VisibleDistancePatch
+[Info   :ModulePatch] Enabled patch CheckFlashlightPatch
+[Info   :ModulePatch] Enabled patch AimTimePatch
+[Info   :ModulePatch] Enabled patch AimOffsetPatch
+[Info   :ModulePatch] Enabled patch RecoilPatch
+[Info   :ModulePatch] Enabled patch LoseRecoilPatch
+[Info   :ModulePatch] Enabled patch EndRecoilPatch
+[Info   :ModulePatch] Enabled patch FullAutoPatch
+[Info   :ModulePatch] Enabled patch SemiAutoPatch
+[Info   :ModulePatch] Enabled patch AddComponentPatch
+[Info   :   BepInEx] Loading [Inventory Organizing Features 1.1.0]
+[Info   :Inventory Organizing Features] Plugin sit.com.iof is loaded!
+[Info   :ModulePatch] Enabled patch PostInitHanbook
+[Info   :ModulePatch] Enabled patch PostMenuScreenInit
+[Info   :ModulePatch] Enabled patch PostEditTagWindowShow
+[Info   :ModulePatch] Enabled patch PreGridClassRemoveAll
+[Info   :ModulePatch] Enabled patch PreItemViewOnPointerDown
+[Info   :ModulePatch] Enabled patch PreItemViewOnBeginDrag
+[Info   :ModulePatch] Enabled patch PostGetFailedProperty
+[Info   :ModulePatch] Enabled patch PreQuickFindAppropriatePlace
+[Info   :ModulePatch] Enabled patch PostGridSortPanelShow
+[Info   :ModulePatch] Enabled patch PostSimpleStashPanelClose
+[Info   :ModulePatch] Enabled patch PostTraderScreensGroupClose
+[Info   :   BepInEx] Loading [MoreCheckmarks 1.5.9]
+[Info   :   BepInEx] Loading [DrakiaXYZ-BigBrain 0.3.2.0]
+[Info   :DrakiaXYZ-BigBrain] Loading: DrakiaXYZ-BigBrain
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivatePatch
+[Info   :ModulePatch] Enabled patch BotBrainCreateLogicNodePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainUpdatePatch
+[Info   :ModulePatch] Enabled patch BotAgentUpdatePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivateLayerPatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainAddLayerPatch
+[Info   :DrakiaXYZ-BigBrain] Completed: DrakiaXYZ-BigBrain
+[Info   :   BepInEx] Loading [DrakiaXYZ-Waypoints 1.3.0]
+[Info   :DrakiaXYZ-Waypoints] Remember to install navmashes to E:\SIT\SIT Test\Game\BepInEx\plugins\navmesh for Waypoints to work!
+[Info   :ModulePatch] Enabled patch DebugPatch
+[Info   :ModulePatch] Enabled patch EditorPatch
+[Info   :ModulePatch] Enabled patch DoorBlockerPatch
+[Message:   BepInEx] Chainloader startup complete
+[Info   :ModulePatch] Enabled patch AmandsLocalPlayerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsNVGPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsApplyNVGPatch
+[Warning:  HarmonyX] AmandsGraphicsHBAOPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void HBAO_Core::ApplyPreset(HBAO_Core+Preset preset) instead of void HBAO_Core::ApplyPreset(HBAO_Core+Preset preset).
+[Info   :ModulePatch] Enabled patch AmandsGraphicsHBAOPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsPrismEffectsPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticSightPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsCameraClassPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsmethod_22Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsTacticalComboVisualControllerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsMethod_7Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurHitPatch
+[Info   :ModulePatch] Enabled patch AmandsBattleUIScreenPatch
+[Info   :ModulePatch] Enabled patch AmandsEffectsControllerPatch
+[Info   :MoreCheckmarks] MoreCheckmarks Started
+[Error  :MoreCheckmarks] Failed to load assets, inspect window checkmark may be miscolored
+[Info   :MoreCheckmarks] Loading data
+[Info   :MoreCheckmarks] 	Quests
+[Info   :RequestHandler] Request GET json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/MoreCheckmarksRoutes/quests
+[Info   :RequestHandler] Request was successful
+[Info   :MoreCheckmarks] 	Items
+[Info   :RequestHandler] Request GET json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/MoreCheckmarksRoutes/items
+[Info   :RequestHandler] Request was successful
+[Info   :MoreCheckmarks] 	Assorts
+[Info   :RequestHandler] Request GET json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/MoreCheckmarksRoutes/assorts
+[Info   :RequestHandler] Request was successful
+[Info   :MoreCheckmarks] 	Productions
+[Info   :RequestHandler] Request GET json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] Request was successful
+[Info   :SIT.Tarkov.Core.PatchConstants] Legal Game Found. Thanks for supporting BSG!
+[Warning:Recoil Standalone] Combat Stances Is Present = False
+[Warning:Recoil Standalone] Realism Mod Is Present = False
+[Info   :ModulePatch] E:/SIT/SIT Test/Game/EscapeFromTarkov_Data/StreamingAssets/Windows/CaseBundles/Golden_Keychain1.bundle
+[Info   :ModulePatch] user/cache/bundles/CaseBundles/Golden_Keychain1.bundle
+[Info   :ModulePatch] E:/SIT/SIT Test/Game/EscapeFromTarkov_Data/StreamingAssets/Windows/CaseBundles/Golden_Keychain2.bundle
+[Info   :ModulePatch] user/cache/bundles/CaseBundles/Golden_Keychain2.bundle
+[Info   :ModulePatch] E:/SIT/SIT Test/Game/EscapeFromTarkov_Data/StreamingAssets/Windows/CaseBundles/Golden_Keychain3.bundle
+[Info   :ModulePatch] user/cache/bundles/CaseBundles/Golden_Keychain3.bundle
+[Info   :ModulePatch] E:/SIT/SIT Test/Game/EscapeFromTarkov_Data/StreamingAssets/Windows/CaseBundles/Golden_Keycard_Case.bundle
+[Info   :ModulePatch] user/cache/bundles/CaseBundles/Golden_Keycard_Case.bundle
+[Info   :ModulePatch] E:/SIT/SIT Test/Game/EscapeFromTarkov_Data/StreamingAssets/Windows/CaseBundles/Golden_Key_Pouch.bundle
+[Info   :ModulePatch] user/cache/bundles/CaseBundles/Golden_Key_Pouch.bundle
+[Info   :  SIT.Core] Version Check: Detected:0.13.9.1.27622
+[Info   :  SIT.Core] Version Check: OK.
+[Info   :ModDetection] [.CheckPlugins.Update]: [SAIN: Looting Bots Detected.]
+[Info   :MoreCheckmarks] Loading data
+[Info   :MoreCheckmarks] 	Quests
+[Info   :RequestHandler] Request GET json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/MoreCheckmarksRoutes/quests
+[Info   :RequestHandler] Request was successful
+[Info   :MoreCheckmarks] 	Items
+[Info   :MoreCheckmarks] 	Assorts
+[Info   :RequestHandler] Request GET json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/MoreCheckmarksRoutes/assorts
+[Info   :RequestHandler] Request was successful
+[Info   :MoreCheckmarks] 	Productions
+[Info   :RequestHandler] Request GET json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] Request was successful
+[Info   :LootingBots] Initializing item appraiser
+[Info   :MoreCheckmarks] Quest Exit the location queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Exit the location queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Exit the location queststatus set to AvailableForStart
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
