@@ -10,9 +10,10 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 13 plugins to load
+[Info   :   BepInEx] 14 plugins to load
 [Info   :   BepInEx] Loading [Graphics 1.5.3]
 [Info   :   BepInEx] Loading [Configuration Manager 18.0.1]
+[Info   :   BepInEx] Loading [CactusPie.RamCleanerInterval 1.0.0]
 [Info   :   BepInEx] Loading [SIT.Core 1.9.0]
 [Info   :  SIT.Core] UseSITGarbageCollector:True
 [Info   :  SIT.Core] SITGCMemoryThreshold:8192
@@ -232,12 +233,13 @@
 [Info   :RequestHandler] Request GET json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/MoreCheckmarksRoutes/productions
 [Info   :RequestHandler] Request was successful
 [Info   :LootingBots] Initializing item appraiser
+[Info   :MoreCheckmarks] Quest Colleagues - Part 3 queststatus set to AvailableForStart
 [Info   :MoreCheckmarks] Quest Exit the location queststatus set to AvailableForStart
-[Info   :MoreCheckmarks] Quest Exit the location queststatus set to AvailableForStart
-[Info   :MoreCheckmarks] Quest Exit the location queststatus set to AvailableForStart
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
+[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Elimination queststatus set to AvailableForStart
+[Message:ModulePatch] RecoilOverhaul: Found HideoutPlayer
+[Info   :ModulePatch] Enabled patch AmandsPainkillerAddEffectPatch
+[Info   :ModulePatch] Enabled patch AmandsPainkillerDeleteEffectPatch
+[Info   :ModulePatch] MatchmakerAcceptScreenAwakePatch.PatchPrefix
+[Info   :ModulePatch] MatchmakerAcceptScreenShow.PatchPostfix
+[Info   :SIT Matchmaker GUI] Start
