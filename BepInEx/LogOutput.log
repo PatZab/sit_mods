@@ -10,10 +10,26 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 14 plugins to load
+[Info   :   BepInEx] 15 plugins to load
 [Info   :   BepInEx] Loading [Graphics 1.5.3]
 [Info   :   BepInEx] Loading [Configuration Manager 18.0.1]
 [Info   :   BepInEx] Loading [CactusPie.RamCleanerInterval 1.0.0]
+[Info   :   BepInEx] Loading [DanW-QuestingBots 0.3.5]
+[Info   :DanW-QuestingBots] Loading QuestingBots...
+[Info   :DanW-QuestingBots] Loading QuestingBots...getting configuration data...
+[Info   :RequestHandler] Request GET json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/QuestingBots/GetConfig
+[Info   :RequestHandler] Request was successful
+[Info   :DanW-QuestingBots] Loading QuestingBots...enabling patches and controllers...
+[Info   :ModulePatch] Enabled patch GameWorldOnDestroyPatch
+[Info   :ModulePatch] Enabled patch OnGameStartedPatch
+[Info   :ModulePatch] Enabled patch BotOwnerBrainActivatePatch
+[Info   :ModulePatch] Enabled patch IsFollowerSuitableForBossPatch
+[Info   :ModulePatch] Enabled patch OnBeenKilledByAggressorPatch
+[Info   :ModulePatch] Enabled patch AirdropLandPatch
+[Info   :DanW-QuestingBots] Loading QuestingBots...changing bot brains for sleeping: Assault, CursAssault, Obdolbs, BossBully, BossSanitar, BossGluhar, BossKojaniy, BossBoar, Tagilla, Killa, ExUsec, PMC, Knight, ArenaFighter, FollowerBully, FollowerSanitar, TagillaFollower, FollowerGluharAssault, FollowerGluharProtect, FollowerGluharScout, FollowerKojaniy, BoarSniper, FlBoar, BigPipe, BirdEye, SectantWarrior, SectantPriest, Marksman, BossZryachiy, Fl_Zraychiy
+[Info   :DanW-QuestingBots] Loading QuestingBots...changing bot brains for questing: Assault, CursAssault, Obdolbs, BossBully, BossSanitar, BossGluhar, BossKojaniy, BossBoar, Tagilla, Killa, ExUsec, PMC, Knight, ArenaFighter, FollowerBully, FollowerSanitar, TagillaFollower, FollowerGluharAssault, FollowerGluharProtect, FollowerGluharScout, FollowerKojaniy, BoarSniper, FlBoar, BigPipe, BirdEye, SectantWarrior, SectantPriest
+[Info   :DanW-QuestingBots] Loading QuestingBots...changing bot brains for following: Assault, CursAssault, Obdolbs, BossBully, BossSanitar, BossGluhar, BossKojaniy, BossBoar, Tagilla, Killa, ExUsec, PMC, Knight, ArenaFighter, FollowerBully, FollowerSanitar, TagillaFollower, FollowerGluharAssault, FollowerGluharProtect, FollowerGluharScout, FollowerKojaniy, BoarSniper, FlBoar, BigPipe, BirdEye, SectantWarrior, SectantPriest, Marksman, BossZryachiy, Fl_Zraychiy
+[Info   :DanW-QuestingBots] Loading QuestingBots...done.
 [Info   :   BepInEx] Loading [SIT.Core 1.9.0]
 [Info   :  SIT.Core] UseSITGarbageCollector:True
 [Info   :  SIT.Core] SITGCMemoryThreshold:8192
@@ -171,6 +187,8 @@
 [Info   :   BepInEx] Loading [DrakiaXYZ-Waypoints 1.3.0]
 [Info   :DrakiaXYZ-Waypoints] Remember to install navmashes to E:\SIT\SIT Test\Game\BepInEx\plugins\navmesh for Waypoints to work!
 [Info   :ModulePatch] Enabled patch DebugPatch
+[Info   :ModulePatch] Enabled patch WaypointPatch
+[Info   :ModulePatch] Enabled patch BotOwnerRunPatch
 [Info   :ModulePatch] Enabled patch EditorPatch
 [Info   :ModulePatch] Enabled patch DoorBlockerPatch
 [Message:   BepInEx] Chainloader startup complete
@@ -233,13 +251,41 @@
 [Info   :RequestHandler] Request GET json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/MoreCheckmarksRoutes/productions
 [Info   :RequestHandler] Request was successful
 [Info   :LootingBots] Initializing item appraiser
-[Info   :MoreCheckmarks] Quest Colleagues - Part 3 queststatus set to AvailableForStart
-[Info   :MoreCheckmarks] Quest Exit the location queststatus set to AvailableForStart
-[Info   :MoreCheckmarks] Quest Find and transfer queststatus set to AvailableForStart
-[Info   :MoreCheckmarks] Quest Elimination queststatus set to AvailableForStart
-[Message:ModulePatch] RecoilOverhaul: Found HideoutPlayer
-[Info   :ModulePatch] Enabled patch AmandsPainkillerAddEffectPatch
-[Info   :ModulePatch] Enabled patch AmandsPainkillerDeleteEffectPatch
-[Info   :ModulePatch] MatchmakerAcceptScreenAwakePatch.PatchPrefix
-[Info   :ModulePatch] MatchmakerAcceptScreenShow.PatchPostfix
-[Info   :SIT Matchmaker GUI] Start
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
+[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
+[Info   :RequestHandler] Request was successful
