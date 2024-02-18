@@ -10,7 +10,7 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 15 plugins to load
+[Info   :   BepInEx] 14 plugins to load
 [Info   :   BepInEx] Loading [Graphics 1.5.3]
 [Info   :   BepInEx] Loading [Configuration Manager 18.0.1]
 [Info   :   BepInEx] Loading [CactusPie.RamCleanerInterval 1.0.0]
@@ -32,7 +32,7 @@
 [Info   :DanW-QuestingBots] Loading QuestingBots...done.
 [Info   :   BepInEx] Loading [SIT.Core 1.9.0]
 [Info   :  SIT.Core] UseSITGarbageCollector:True
-[Info   :  SIT.Core] SITGCMemoryThreshold:8192
+[Info   :  SIT.Core] SITGCMemoryThreshold:16384
 [Info   :  SIT.Core] SITGCClearAssets:False
 [Info   :  SIT.Core] SITGCAggressiveClean:False
 [Info   :SIT.Tarkov.Core.PatchConstants] PatchConstants: 11888 EftTypes found
@@ -128,10 +128,6 @@
 [Info   :ModulePatch] Enabled patch LootValueGridItemOnPointerExitPatch
 [Warning:  HarmonyX] LootValueItemViewOnClickPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual void EFT.UI.DragAndDrop.ItemView::OnClick(UnityEngine.EventSystems.PointerEventData+InputButton button, UnityEngine.Vector2 position, bool doubleClick) instead of virtual void EFT.UI.DragAndDrop.ItemView::OnClick(UnityEngine.EventSystems.PointerEventData+InputButton button, UnityEngine.Vector2 position, bool doubleClick).
 [Info   :ModulePatch] Enabled patch LootValueItemViewOnClickPatch
-[Info   :   BepInEx] Loading [LootingBots 1.1.4]
-[Info   :ModulePatch] Enabled patch CleanCacheOnRaidEnd
-[Info   :ModulePatch] Enabled patch EnableWeaponSwitching
-[Info   :ModulePatch] Enabled patch RemoveComponent
 [Info   :   BepInEx] Loading [SAIN 2.1.8]
 [Info   :ModulePatch] Enabled patch UpdateEFTSettingsPatch
 [Info   :ModulePatch] Enabled patch KickPatch
@@ -185,7 +181,7 @@
 [Info   :ModulePatch] Enabled patch BotBaseBrainAddLayerPatch
 [Info   :DrakiaXYZ-BigBrain] Completed: DrakiaXYZ-BigBrain
 [Info   :   BepInEx] Loading [DrakiaXYZ-Waypoints 1.3.0]
-[Info   :DrakiaXYZ-Waypoints] Remember to install navmashes to E:\SIT\SIT Test\Game\BepInEx\plugins\navmesh for Waypoints to work!
+[Info   :DrakiaXYZ-Waypoints] Remember to install navmashes to E:\SIT\SIT Main\Game\BepInEx\plugins\navmesh for Waypoints to work!
 [Info   :ModulePatch] Enabled patch DebugPatch
 [Info   :ModulePatch] Enabled patch WaypointPatch
 [Info   :ModulePatch] Enabled patch BotOwnerRunPatch
@@ -226,19 +222,18 @@
 [Info   :SIT.Tarkov.Core.PatchConstants] Legal Game Found. Thanks for supporting BSG!
 [Warning:Recoil Standalone] Combat Stances Is Present = False
 [Warning:Recoil Standalone] Realism Mod Is Present = False
-[Info   :ModulePatch] E:/SIT/SIT Test/Game/EscapeFromTarkov_Data/StreamingAssets/Windows/CaseBundles/Golden_Keychain1.bundle
+[Info   :ModulePatch] E:/SIT/SIT Main/Game/EscapeFromTarkov_Data/StreamingAssets/Windows/CaseBundles/Golden_Keychain1.bundle
 [Info   :ModulePatch] user/cache/bundles/CaseBundles/Golden_Keychain1.bundle
-[Info   :ModulePatch] E:/SIT/SIT Test/Game/EscapeFromTarkov_Data/StreamingAssets/Windows/CaseBundles/Golden_Keychain2.bundle
+[Info   :ModulePatch] E:/SIT/SIT Main/Game/EscapeFromTarkov_Data/StreamingAssets/Windows/CaseBundles/Golden_Keychain2.bundle
 [Info   :ModulePatch] user/cache/bundles/CaseBundles/Golden_Keychain2.bundle
-[Info   :ModulePatch] E:/SIT/SIT Test/Game/EscapeFromTarkov_Data/StreamingAssets/Windows/CaseBundles/Golden_Keychain3.bundle
+[Info   :ModulePatch] E:/SIT/SIT Main/Game/EscapeFromTarkov_Data/StreamingAssets/Windows/CaseBundles/Golden_Keychain3.bundle
 [Info   :ModulePatch] user/cache/bundles/CaseBundles/Golden_Keychain3.bundle
-[Info   :ModulePatch] E:/SIT/SIT Test/Game/EscapeFromTarkov_Data/StreamingAssets/Windows/CaseBundles/Golden_Keycard_Case.bundle
+[Info   :ModulePatch] E:/SIT/SIT Main/Game/EscapeFromTarkov_Data/StreamingAssets/Windows/CaseBundles/Golden_Keycard_Case.bundle
 [Info   :ModulePatch] user/cache/bundles/CaseBundles/Golden_Keycard_Case.bundle
-[Info   :ModulePatch] E:/SIT/SIT Test/Game/EscapeFromTarkov_Data/StreamingAssets/Windows/CaseBundles/Golden_Key_Pouch.bundle
+[Info   :ModulePatch] E:/SIT/SIT Main/Game/EscapeFromTarkov_Data/StreamingAssets/Windows/CaseBundles/Golden_Key_Pouch.bundle
 [Info   :ModulePatch] user/cache/bundles/CaseBundles/Golden_Key_Pouch.bundle
 [Info   :  SIT.Core] Version Check: Detected:0.13.9.1.27622
 [Info   :  SIT.Core] Version Check: OK.
-[Info   :ModDetection] [.CheckPlugins.Update]: [SAIN: Looting Bots Detected.]
 [Info   :MoreCheckmarks] Loading data
 [Info   :MoreCheckmarks] 	Quests
 [Info   :RequestHandler] Request GET json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/MoreCheckmarksRoutes/quests
@@ -250,42 +245,13 @@
 [Info   :MoreCheckmarks] 	Productions
 [Info   :RequestHandler] Request GET json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/MoreCheckmarksRoutes/productions
 [Info   :RequestHandler] Request was successful
-[Info   :LootingBots] Initializing item appraiser
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
-[Info   :RequestHandler] Request POST json: dda5db5fb9520796c84364ac:http://194.164.200.170:6969/LootValue/GetItemLowestFleaPrice
-[Info   :RequestHandler] Request was successful
+[Info   :MoreCheckmarks] Quest The Punisher - Part 4 queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest The Huntsman Path - Justice queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest TerraGroup Employee queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Easy Job - Part 2 queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Reconnaissance queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest The Huntsman Path - Big Game queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Ambulances Again queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Exit the location queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Elimination queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Elimination queststatus set to AvailableForStart
