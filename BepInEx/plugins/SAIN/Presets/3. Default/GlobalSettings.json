@@ -25,7 +25,7 @@
     "NotLookingAngle": 15.0,
     "NotLookingVisionSpeedModifier": 1.33,
     "NotLookingAccuracyAmount": 0.33,
-    "GlobalDifficultyModifier": 1.0,
+    "GlobalDifficultyModifier": 1.5,
     "NoBushESPToggle": true,
     "EnhancedCoverFinding": false,
     "NoBushESPEnhanced": false,
