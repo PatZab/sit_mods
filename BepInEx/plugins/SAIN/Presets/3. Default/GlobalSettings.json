@@ -1,6 +1,6 @@
 {
   "Aiming": {
-    "AccuracySpreadMultiGlobal": 1.0,
+    "AccuracySpreadMultiGlobal": 0.5,
     "FasterCQBReactionsGlobal": true
   },
   "Cover": {
@@ -10,7 +10,7 @@
     "DebugCoverFinder": false
   },
   "Extract": {
-    "EnableExtractsGlobal": true
+    "EnableExtractsGlobal": false
   },
   "Flashlight": {
     "DazzleEffectiveness": 3.0,
@@ -23,7 +23,7 @@
     "NotLookingToggle": true,
     "NotLookingTimeLimit": 4.0,
     "NotLookingAngle": 15.0,
-    "NotLookingVisionSpeedModifier": 1.33,
+    "NotLookingVisionSpeedModifier": 1.1,
     "NotLookingAccuracyAmount": 0.33,
     "GlobalDifficultyModifier": 1.5,
     "NoBushESPToggle": true,
