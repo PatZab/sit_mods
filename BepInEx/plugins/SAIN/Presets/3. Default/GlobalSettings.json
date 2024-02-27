@@ -10,7 +10,7 @@
     "DebugCoverFinder": false
   },
   "Extract": {
-    "EnableExtractsGlobal": false
+    "EnableExtractsGlobal": true
   },
   "Flashlight": {
     "DazzleEffectiveness": 3.0,
@@ -21,10 +21,10 @@
   "General": {
     "BotsUseGrenades": true,
     "NotLookingToggle": true,
-    "NotLookingTimeLimit": 2.02,
+    "NotLookingTimeLimit": 3.0,
     "NotLookingAngle": 15.0,
-    "NotLookingVisionSpeedModifier": 1.1,
-    "NotLookingAccuracyAmount": 0.33,
+    "NotLookingVisionSpeedModifier": 1.33,
+    "NotLookingAccuracyAmount": 0.2,
     "GlobalDifficultyModifier": 1.5,
     "NoBushESPToggle": true,
     "EnhancedCoverFinding": true,
